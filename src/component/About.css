@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  position: relative;
+  flex-direction: column;
+  background-color: rgb(235, 139, 187);
+  border-radius: 35px;
+  box-shadow: 2px 4px 4px 4px black;
+}
+.img1 {
+  margin-top: 1rem;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.para {
+  color: rgb(9, 10, 7);
+  font-size: 25px;
+}
+.st {
+  color: red;
+}
+.about:hover {
+  background: rgb(184, 121, 243);
+  cursor: pointer;
+}

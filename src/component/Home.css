@@ -1,0 +1,33 @@
+.div {
+  height: 500px;
+
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(221, 210, 145);
+  border: none;
+  position: relative;
+  box-shadow: 2px 4px 6px 6px rgb(36, 34, 34);
+  border-radius: 40px;
+}
+.h {
+  color: crimson;
+}
+.img {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 2px 4px 6px 6px white;
+  cursor: pointer;
+}
+.p {
+  font-weight: bold;
+  color: blue;
+}
+.div:hover {
+  background: cadetblue;
+  cursor: pointer;
+}
